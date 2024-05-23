@@ -177,7 +177,7 @@ const add_to_cart = (x) => {
         <h4 class="card-price px-4 text-indigo-300 font-bold border-2 border-indigo-200 rounded-full">${x.price}</h4>
         <span class="quantity text-violet-300 ml-2 font-bold">1</span>
       </div>
-      <button class="btn remove-btn bg-red-700 text-red-100 px-4 rounded hover:bg-red-800">X</button>
+      <button class="btn remove-btn bg-red-700 text-red-100 px-2 rounded hover:bg-red-800">X</button>
     `;
     cart_item.setAttribute("data-img", x.img);
     cart_item.setAttribute("data-price", x.price);
